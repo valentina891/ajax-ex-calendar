@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+button, h1 {
+    display: inline-block;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: 0 10px;
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+}
