@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     // //creo oggetto moment con data di partenza: 2018-01-01
     var data = moment('2018-01-01');
-    
+
     // richiamo funzioni:
     insertDays(data);
     insertHolidays(data);
@@ -25,8 +25,6 @@ $(document).ready(function(){
     //definisco var per i gg, mesi e anno + uso daysInMonth per ottenere il n. dei gg con ciclo for:
 
 
-    //
-    //
     // creo funzione per ins. giorni e festività:
     function insertDays(data) {
         var giorni = data.daysInMonth();
